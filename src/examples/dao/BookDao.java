@@ -27,10 +27,10 @@ import examples.dto.Book;
 public interface BookDao {
 
     public Class BEAN = Book.class;
-
-    public static final String ARGS_findByCategory = "category";
-
-    public static final String findByCategoryPagerCondition_QUERY = "ORDER BY ID";
+//
+//    public static final String ARGS_findByCategory = "category";
+//
+//    public static final String findByCategoryPagerCondition_QUERY = "ORDER BY ID";
 
     public List findByCategory(String category);
 
